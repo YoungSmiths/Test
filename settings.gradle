@@ -1,0 +1,8 @@
+rootProject.name = 'test'
+include 'JackSon'
+include 'Gson'
+include 'FastJson'
+include 'Json-lib'
+include 'common'
+include 'reflect'
+
