@@ -5,4 +5,7 @@ include 'FastJson'
 include 'Json-lib'
 include 'common'
 include 'reflect'
+include 'springboot'
+include 'httpclient'
+include 'socket'
 
