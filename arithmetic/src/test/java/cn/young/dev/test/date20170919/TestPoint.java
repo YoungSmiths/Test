@@ -13,4 +13,9 @@ public class TestPoint {
     public void testPoint_1() {
         Assert.assertEquals(TestString.resultStr, Point_1.getMaxNumberStr(TestString.str));
     }
+
+    @Test
+    public void testPoint_2(){
+        Assert.assertEquals(TestString.resultStr, Point_2.getMaxNumberStr(TestString.str));
+    }
 }
