@@ -9,4 +9,7 @@ include 'springboot'
 include 'httpclient'
 include 'socket'
 include 'arithmetic'
+include 'MultiThreading'
+include 'base'
+include 'mail'
 
