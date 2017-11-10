@@ -1,4 +1,4 @@
-package cn.internetware.yancloud.dataretention.common.entity;
+package cn.young.dev.test;
 
 import java.util.HashMap;
 import java.util.Map;

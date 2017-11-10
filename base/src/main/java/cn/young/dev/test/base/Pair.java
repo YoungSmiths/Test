@@ -1,4 +1,4 @@
-package cn.internetware.yancloud.dataretention.common.utils;
+package cn.young.dev.test.base;
 
 public class Pair<T, U> {
 	T t;

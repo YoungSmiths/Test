@@ -1,8 +1,8 @@
-package cn.internetware.yancloud.dataretention.common.utils;
-
-import java.io.Serializable;
+package cn.young.dev.test;
 
 import org.apache.http.HttpStatus;
+
+import java.io.Serializable;
 
 /**
  * @ Desc

@@ -1,6 +1,5 @@
-package cn.internetware.yancloud.dataretention.common.utils;
+package cn.young.dev.test;
 
-import cn.internetware.yancloud.dataretention.common.entity.ApiRequest;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.CookieStore;
@@ -157,7 +156,6 @@ public class ApiHttpClient {
         }
         if (ContentType.APPLICATION_FORM_URLENCODED.getMimeType().equalsIgnoreCase(contentType)) {
             Map<String, Object> map = GsonUtil.json2Map(requestBody);
-
             List<NameValuePair> nvps = new ArrayList<>();
             for (Map.Entry<String, Object> entry : map.entrySet()) {
                 nvps.add(new BasicNameValuePair(entry.getKey(), (String) entry.getValue()));
@@ -182,10 +180,7 @@ public class ApiHttpClient {
         for (Map.Entry<String, String> entry : query.entrySet()) {
             uri.append(entry.getKey()).append("=").append(entry.getValue()).append("&");
         }
-        String str = uri.toString();
-//        if (str.lastIndexOf("&") == str.length() - 1)
-//            return str.substring(0, str.length() - 2);
-        return str;
+        return uri.toString();
     }
 
     private static HttpUriRequest build(String method, String uri) throws HttpOperationException {
@@ -203,5 +198,4 @@ public class ApiHttpClient {
         }
         return httpRequest;
     }
-
 }
