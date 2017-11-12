@@ -12,4 +12,6 @@ include 'arithmetic'
 include 'MultiThreading'
 include 'base'
 include 'mail'
+include 'jdk'
+include 'document'
 
