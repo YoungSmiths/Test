@@ -17,7 +17,7 @@ public abstract class AbstractCompany{
     public AbstractCompany(Location location, Integer employeeNum) {
         this.location = location;
         this.employeeNum = employeeNum;
-        this.employees = new ArrayList<>();
+        this.employees = new ArrayList<>();notifyAll();
     }
 
     public Location getLocation() {

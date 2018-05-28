@@ -10,8 +10,7 @@ repositories {
 }
 
 dependencies {
-    compile project(":base")
-    compile project(":Gson")
-
+    compile 'com.alibaba:dubbo:2.5.9'
+//    compile 'com.alibaba.boot:dubbo-spring-boot-starter:1.0.0-SNAPSHOT'
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
